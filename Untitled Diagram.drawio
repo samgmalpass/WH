@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T21:27:03.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57" etag="v8637oFIvgC5LXqIl2rU" version="16.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-23T22:57:35.235Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57" etag="L7M9w1hnb18EcvX7fzBR" version="16.0.3" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Company Auth">
     <mxGraphModel dx="1165" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -261,6 +261,283 @@
         </mxCell>
         <mxCell id="ofUDi9bGPqE7FNT7YbZp-12" value="Assign user level&lt;br&gt;(1 ,2 3)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="x3TfJhb1I3s283yUIdMb-1">
           <mxGeometry x="430" y="440" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VeOycUTA38Uhr8CWcW5Z" name="ARA">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-0" />
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-1" parent="tEnPLmMFxXAU2JAELvwp-0" />
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-81" value="Risk Score matrix" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=9;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="10" y="310" width="800" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-103" value="" style="group" vertex="1" connectable="0" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="40" y="690" width="326" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-100" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FF0000;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-103">
+          <mxGeometry y="30" width="326" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-101" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FF0000;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-103">
+          <mxGeometry y="15" width="326" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-102" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FF0000;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-103">
+          <mxGeometry width="326" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-99" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FF0000;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-103">
+          <mxGeometry y="45" width="326" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-95" value="later interation" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="460" y="140" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-84" value="RISK MODEL INPUT - Row by row (with paging every 10/20 rows" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="10" y="770" width="810" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-73" value="Page number&lt;br&gt;of total pages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="30" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-76" value="" style="group" vertex="1" connectable="0" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="30" y="20" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-75" value="Incident Information" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-76">
+          <mxGeometry width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-3" value="DateTime of call" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-76">
+          <mxGeometry x="150" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-7" value="Incident Identifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-76">
+          <mxGeometry x="280" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-9" value="Location" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-76">
+          <mxGeometry x="20" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-77" value="" style="group" vertex="1" connectable="0" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="464" y="20" width="286" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-72" value="Assessment Type" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-77">
+          <mxGeometry width="286" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-11" value="Incident" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-77">
+          <mxGeometry x="16" y="30" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-12" value="Sector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-77">
+          <mxGeometry x="106" y="30" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-13" value="Name / Number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-77">
+          <mxGeometry x="196" y="30" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-85" value="" style="group" vertex="1" connectable="0" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="14" y="810" width="800" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-18" value="Add a row&lt;br&gt;To enter a hazard&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry width="120" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-19" value="Hazard&lt;br&gt;Type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry y="79.31142410015649" width="50" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-18" target="tEnPLmMFxXAU2JAELvwp-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-20" value="Who &lt;br&gt;is at risk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="67.5" y="79.31142410015649" width="45" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-19" target="tEnPLmMFxXAU2JAELvwp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-37" value="CURRENT&lt;br&gt;Control measures" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="130" y="79.31142410015649" width="100" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-20" target="tEnPLmMFxXAU2JAELvwp-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-38" value="Severity Score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="250" y="79.31142410015649" width="50" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-37" target="tEnPLmMFxXAU2JAELvwp-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-39" value="Likelihood Score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="320" y="79.31142410015649" width="60" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-38" target="tEnPLmMFxXAU2JAELvwp-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-40" value="Total Score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="404" y="79.31142410015649" width="50" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-39" target="tEnPLmMFxXAU2JAELvwp-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-41" value="Risk&lt;br&gt;Bracket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="474" y="79.31142410015649" width="50" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-40" target="tEnPLmMFxXAU2JAELvwp-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-42" value="Control measures adequate?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="550" y="61.78403755868545" width="130" height="87.63693270735524" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-41" target="tEnPLmMFxXAU2JAELvwp-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-45" value="Timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="720" y="79.31142410015649" width="80" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-54" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-42" target="tEnPLmMFxXAU2JAELvwp-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-46" value="ADDITIONAL&lt;br&gt;Control measures" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="130" y="209.89045383411582" width="100" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-42" target="tEnPLmMFxXAU2JAELvwp-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-55" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEnPLmMFxXAU2JAELvwp-53">
+          <mxGeometry x="-0.5772" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-47" value="Severity Score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="250" y="209.89045383411582" width="50" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-46" target="tEnPLmMFxXAU2JAELvwp-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-48" value="Likelihood Score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="320" y="209.89045383411582" width="60" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-47" target="tEnPLmMFxXAU2JAELvwp-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-49" value="Total Score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="404" y="209.89045383411582" width="50" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-48" target="tEnPLmMFxXAU2JAELvwp-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-50" value="Risk&lt;br&gt;Bracket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="474" y="209.89045383411582" width="50" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-49" target="tEnPLmMFxXAU2JAELvwp-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-51" value="Control measures adequate?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="570" y="192.36306729264476" width="130" height="87.63693270735524" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-50" target="tEnPLmMFxXAU2JAELvwp-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-52" value="Timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-85">
+          <mxGeometry x="720" y="209.89045383411582" width="80" height="52.58215962441315" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tEnPLmMFxXAU2JAELvwp-85" source="tEnPLmMFxXAU2JAELvwp-51" target="tEnPLmMFxXAU2JAELvwp-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-86" value="Autocomplete" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="14" y="950" width="116" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-4" value="Tactical Mode" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="170" y="140" width="272.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-5" value="Offensive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="178.75" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-6" value="Defensive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="312.5" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-8" value="Inputting Officer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="178.75" y="210" width="121.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-88" value="Timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="178.75" y="250" width="251.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-89" value="Authorising Officer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="312.5" y="210" width="121.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-90" value="Related: Site Specific Risk Info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="477" y="150" width="286" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-91" value="Photographs taken" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="477" y="190" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-92" value="Timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="633" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-93" value="Location data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="477" y="230" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-94" value="User Input data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="633" y="230" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-14" value="Likelihood&lt;br&gt;(1 - 5)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="40" y="487.62" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-15" value="Severity&lt;br&gt;(1 - 5)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="40" y="340" width="120" height="43.81" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-70" value="1 Insignificant - No Injury&lt;br&gt;2 Minor - First Aid Only&lt;br&gt;3 Moderate - Hospital treatment required&lt;br&gt;4 Significant - Permanent disability/fatality&lt;br&gt;5 Catastrophic - Multiple fatalities/large-scale hospitalisation of casualties" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="40" y="387.62" width="252.5" height="87.62" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-71" value="1 Rare - May occur in exceptional circumstances&lt;br&gt;2 Unlikely - Will seldom occur&lt;br&gt;3 Possible - May occur&lt;br&gt;4 Probably - Will often occur&lt;br&gt;5 Highly Probable - Near certain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="40" y="527.62" width="267.25" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-30" value="Recognised&lt;br&gt;Hazards" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=9;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="590" y="380" width="200" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-16" value="Recognised&lt;br&gt;Generic Risk Assessment" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=9;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="384" y="380" width="186" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-17" value="Categories and types from&lt;br&gt;National Operational Guidance Framework" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="380" y="323.81" width="416" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-79" value="" style="group" vertex="1" connectable="0" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="390" y="438" width="165" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-21" value="Fires" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-79">
+          <mxGeometry width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-22" value="Buildings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-79">
+          <mxGeometry x="45" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-23" value="Rescues" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-79">
+          <mxGeometry x="5" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-24" value="Vehicles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-79">
+          <mxGeometry x="45" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-25" value="From height" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-79">
+          <mxGeometry x="45" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-26" value="Entrapment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-79">
+          <mxGeometry x="45" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-80" value="" style="group" vertex="1" connectable="0" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="610" y="438" width="165" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-31" value="Struck by object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-80">
+          <mxGeometry width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-32" value="Buildings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-80">
+          <mxGeometry x="45" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-33" value="Fall from height" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-80">
+          <mxGeometry x="5" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-34" value="Vehicles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-80">
+          <mxGeometry x="45" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-35" value="Ladder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-80">
+          <mxGeometry x="45" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-36" value="Building" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-80">
+          <mxGeometry x="45" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-96" value="1 - 5&amp;nbsp; &amp;nbsp; TOLERABLE monitor&lt;br&gt;4 - 8&amp;nbsp; &amp;nbsp; MODERATE minor actions&lt;br&gt;9 - 14&amp;nbsp; HIGH Unsatisfactory - immediate action req.&lt;br&gt;15 - 25 VERY HIGH Unacceptable - take immediate action&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="40" y="680" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tEnPLmMFxXAU2JAELvwp-97" value="Risk Bracket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tEnPLmMFxXAU2JAELvwp-1">
+          <mxGeometry x="40" y="640" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
